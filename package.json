@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.10.2",
+        "@vue-leaflet/vue-leaflet": "^0.6.1",
+        "@vue/compiler-sfc": "^3.2.37",
+        "autoprefixer": "^10.4.13",
+        "axios": "^0.21",
+        "bootstrap": "^4.3.1",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.21",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "tailwindcss": "^3.2.6",
+        "vue": "^3.2.36",
+        "vue-loader": "^17.0.0",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "alpinejs": "^3.10.2",
+        "beautify-scrollbar": "^1.0.8",
+        "jquery": "^3.6.0",
+        "laravel-echo": "^1.11.7",
+        "lazy-load-list": "^1.2.3",
+        "socket.io": "^2.4.0",
+        "socket.io-client": "^2.4.0",
+        "v2-lazy-list": "^2.2.5",
+        "vue-infinite-scroll": "^2.0.2",
+        "vue-router": "^4.0.13",
+        "vuex": "^4.0.2"
+    }
+}
